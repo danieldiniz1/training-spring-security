@@ -1,0 +1,204 @@
+[2022-11-10T20:42:21.021Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting SpringSecurityApplication using Java 17.0.1 on DINIZ with PID 25660 (C:\Users\danie\Documents\Daniel_Diniz\java\Prof-Nelio-alves\spring-security\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Prof-Nelio-alves\spring-security)
+[2022-11-10T20:42:21.021Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-10T20:42:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-10T20:42:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2022-11-10T20:42:24.024Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-10T20:42:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-10T20:42:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-11-10T20:42:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-10T20:42:26.026Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-10T20:42:26.026Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 5404 ms
+[2022-11-10T20:42:27.027Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-10T20:42:27.027Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-10T20:42:27.027Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-10T20:42:27.027Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-10T20:42:28.028Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-10T20:42:28.028Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-11-10T20:42:28.028Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-10T20:42:28.028Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-10T20:42:28.028Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-10T20:42:29.029Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-10T20:42:29.029Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-10T20:42:29.029Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started SpringSecurityApplication in 8.977 seconds (JVM running for 15.734)
+[2022-11-10T20:55:49.049Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-10T20:55:49.049Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-11-10T20:55:49.049Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-10T20:55:49.049Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-10T21:40:42.042Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting SpringSecurityApplication using Java 17.0.1 on DINIZ with PID 31140 (C:\Users\danie\Documents\Daniel_Diniz\java\Prof-Nelio-alves\spring-security\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Prof-Nelio-alves\spring-security)
+[2022-11-10T21:40:42.042Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-10T21:40:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-10T21:40:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[2022-11-10T21:40:44.044Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-10T21:40:44.044Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-10T21:40:44.044Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-11-10T21:40:44.044Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-10T21:40:45.045Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-10T21:40:45.045Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2190 ms
+[2022-11-10T21:40:45.045Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-10T21:40:45.045Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-10T21:40:45.045Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-11-10T21:40:45.045Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-10T21:40:45.045Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-10T21:40:46.046Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-10T21:40:46.046Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-11-10T21:40:46.046Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-10T21:40:46.046Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-10T21:40:46.046Z] [org.springframework.context.support.AbstractApplicationContext] [main] [591] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationServerConfig': Unsatisfied dependency expressed through field 'accessTokenConverter'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessTokenConverter' defined in class path resource [br/com/training/springsecurity/controller/security/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+[2022-11-10T21:40:46.046Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-10T21:40:46.046Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [main] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-11-10T21:40:46.046Z] [com.zaxxer.hikari.HikariDataSource] [main] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-10T21:40:46.046Z] [com.zaxxer.hikari.HikariDataSource] [main] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-10T21:40:46.046Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Stopping service [Tomcat]
+[2022-11-10T21:40:46.046Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [main] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-11-10T21:40:46.046Z] [org.springframework.boot.SpringApplication] [main] [824] [ERROR] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationServerConfig': Unsatisfied dependency expressed through field 'accessTokenConverter'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessTokenConverter' defined in class path resource [br/com/training/springsecurity/controller/security/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at br.com.training.springsecurity.SpringSecurityApplication.main(SpringSecurityApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessTokenConverter' defined in class path resource [br/com/training/springsecurity/controller/security/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at br.com.training.springsecurity.controller.security.AppConfig.accessTokenConverter(AppConfig.java:25)
+	at br.com.training.springsecurity.controller.security.AppConfig$$EnhancerBySpringCGLIB$$d9bddc38.CGLIB$accessTokenConverter$1(<generated>)
+	at br.com.training.springsecurity.controller.security.AppConfig$$EnhancerBySpringCGLIB$$d9bddc38$$FastClassBySpringCGLIB$$c7173c25.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at br.com.training.springsecurity.controller.security.AppConfig$$EnhancerBySpringCGLIB$$d9bddc38.accessTokenConverter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 34 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.jwt.crypto.sign.Signer
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 45 common frames omitted
+[2022-11-10T21:44:15.015Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting SpringSecurityApplication using Java 17.0.1 on DINIZ with PID 10516 (C:\Users\danie\Documents\Daniel_Diniz\java\Prof-Nelio-alves\spring-security\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Prof-Nelio-alves\spring-security)
+[2022-11-10T21:44:15.015Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-10T21:44:16.016Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-10T21:44:16.016Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[2022-11-10T21:44:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-10T21:44:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-10T21:44:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-11-10T21:44:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-10T21:44:18.018Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-10T21:44:18.018Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2171 ms
+[2022-11-10T21:44:18.018Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-10T21:44:18.018Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-10T21:44:18.018Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-11-10T21:44:18.018Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-10T21:44:18.018Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-10T21:44:18.018Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-10T21:44:19.019Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-11-10T21:44:19.019Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-10T21:44:19.019Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-10T21:44:19.019Z] [org.springframework.context.support.AbstractApplicationContext] [main] [591] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationServerConfig': Unsatisfied dependency expressed through field 'accessTokenConverter'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessTokenConverter' defined in class path resource [br/com/training/springsecurity/controller/security/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+[2022-11-10T21:44:19.019Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-10T21:44:19.019Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [main] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-11-10T21:44:19.019Z] [com.zaxxer.hikari.HikariDataSource] [main] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-10T21:44:19.019Z] [com.zaxxer.hikari.HikariDataSource] [main] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-10T21:44:19.019Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Stopping service [Tomcat]
+[2022-11-10T21:44:19.019Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [main] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-11-10T21:44:19.019Z] [org.springframework.boot.SpringApplication] [main] [824] [ERROR] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationServerConfig': Unsatisfied dependency expressed through field 'accessTokenConverter'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessTokenConverter' defined in class path resource [br/com/training/springsecurity/controller/security/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at br.com.training.springsecurity.SpringSecurityApplication.main(SpringSecurityApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessTokenConverter' defined in class path resource [br/com/training/springsecurity/controller/security/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'accessTokenConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/jwt/crypto/sign/Signer
+	at br.com.training.springsecurity.controller.security.AppConfig.accessTokenConverter(AppConfig.java:25)
+	at br.com.training.springsecurity.controller.security.AppConfig$$EnhancerBySpringCGLIB$$ac44f147.CGLIB$accessTokenConverter$1(<generated>)
+	at br.com.training.springsecurity.controller.security.AppConfig$$EnhancerBySpringCGLIB$$ac44f147$$FastClassBySpringCGLIB$$ec16469a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at br.com.training.springsecurity.controller.security.AppConfig$$EnhancerBySpringCGLIB$$ac44f147.accessTokenConverter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 34 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.jwt.crypto.sign.Signer
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 45 common frames omitted
