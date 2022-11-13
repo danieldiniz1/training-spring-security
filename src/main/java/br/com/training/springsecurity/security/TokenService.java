@@ -1,6 +1,7 @@
 package br.com.training.springsecurity.security;
 
 import br.com.training.springsecurity.model.User;
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Value;
@@ -30,5 +31,23 @@ public class TokenService {
                 .signWith(SignatureAlgorithm.HS256,secret)
                 .compact();
 
+    }
+
+    public Boolean isTokenValid(String token) {
+        try {
+            Jwts.parser()
+                    .setSigningKey(secret)
+                    .parseClaimsJws(token);
+            return Boolean.TRUE;
+        } catch (RuntimeException e){
+            return Boolean.FALSE;
+        }
+    }
+
+    public Long getIdUser(String token) {
+        Claims claims = Jwts.parser()
+                .setSigningKey(secret)
+                .parseClaimsJws(token).getBody();
+        return Long.parseLong(claims.getSubject());
     }
 }

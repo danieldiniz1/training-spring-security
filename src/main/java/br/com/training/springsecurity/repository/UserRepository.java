@@ -1,4 +1,4 @@
-package br.com.training.springsecurity.controller.repository;
+package br.com.training.springsecurity.repository;
 
 import br.com.training.springsecurity.model.User;
 import org.hibernate.ObjectNotFoundException;

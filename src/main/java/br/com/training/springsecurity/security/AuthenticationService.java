@@ -1,6 +1,6 @@
 package br.com.training.springsecurity.security;
 
-import br.com.training.springsecurity.controller.repository.UserRepository;
+import br.com.training.springsecurity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

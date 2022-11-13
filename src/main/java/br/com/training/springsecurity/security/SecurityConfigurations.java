@@ -1,10 +1,12 @@
 package br.com.training.springsecurity.security;
 
+import br.com.training.springsecurity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -14,6 +16,9 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import javax.servlet.Filter;
 
 @EnableWebSecurity
 @Configuration
@@ -21,6 +26,12 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private AuthenticationService authenticationService;
+
+    @Autowired
+    private TokenService tokenService;
+
+    @Autowired
+    private UserRepository userRepository;
 
     @Override
     @Bean
@@ -44,7 +55,8 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
                 .antMatchers("/oauth/token").permitAll()
                 .anyRequest().authenticated()
                 .and().csrf().disable()
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                .and().addFilterBefore( new AutenticacaoViaTokenFilter(tokenService,userRepository), UsernamePasswordAuthenticationFilter.class);
 
     }
 
