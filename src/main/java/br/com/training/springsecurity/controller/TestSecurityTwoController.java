@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/security")
-public class TestSecurityController {
+@RequestMapping("/other")
+public class TestSecurityTwoController {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -25,9 +25,9 @@ public class TestSecurityController {
         return ResponseEntity.ok().build();
     }
 
-    @GetMapping("/unblock")
+    @GetMapping("/block")
     public ResponseEntity getTestAfterblock(){
-        LOGGER.info("O processo de autenticação funcionou - unblock");
+        LOGGER.info("O processo de autenticação funcionou");
         return ResponseEntity.ok().build();
     }
 }

@@ -2,6 +2,7 @@ package br.com.training.springsecurity.controller.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
@@ -12,6 +13,11 @@ public class ControllerExceptionHanlder {
 
     @ExceptionHandler(RuntimeException.class)
     public ResponseEntity<StandarError> throwException(RuntimeException e, HttpServletRequest request){
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(StandarError.valueOf(e,HttpStatus.BAD_REQUEST));
+    }
+
+    @ExceptionHandler(AuthenticationException.class)
+    public ResponseEntity<StandarError> authError(AuthenticationException e, HttpServletRequest request){
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(StandarError.valueOf(e,HttpStatus.BAD_REQUEST));
     }
 }
