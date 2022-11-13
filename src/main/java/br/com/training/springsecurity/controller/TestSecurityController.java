@@ -17,17 +17,17 @@ public class TestSecurityController {
     @GetMapping
     public ResponseEntity getTestBlock(){
         LOGGER.info("O processo de autenticação funcionou");
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok().body("funcionou");
     }
     @PostMapping
     public ResponseEntity getTestUnblock(){
         LOGGER.info("O processo de autenticação funcionou");
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok().body("funcionou");
     }
 
     @GetMapping("/unblock")
     public ResponseEntity getTestAfterblock(){
         LOGGER.info("O processo de autenticação funcionou - unblock");
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok().body("funcionou");
     }
 }
